@@ -70,9 +70,6 @@ nav .brand img{
 
 @media screen and (max-width: 769px) {
 
-    nav {
-        padding: 10px 50px;
-    }
 
     .margin{
         /* margin-top: ; */
@@ -115,4 +112,17 @@ nav .brand img{
         cursor: pointer;
         color: white;
     }
+}
+
+
+@media screen and (max-width: 500px){
+    nav{
+        padding: 10px 50px;
+    }
+
+    nav .brand{
+        margin-left: -20px;
+    }
+
+
 }
