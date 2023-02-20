@@ -2,7 +2,7 @@ import { faFacebook, faGooglePlusSquare, faInstagram, faTwitter, faYoutube } fro
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 // import { Link } from 'react-router-dom'
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 import './profile.css'
 
 const Profile = () => {
@@ -42,10 +42,10 @@ const Profile = () => {
                     <div className='profile-details-role'>
                         <span className='primary-text'>
 
-                            <h1><Typical loop={Infinity} steps={[
+                            {/* <h1><Typical loop={Infinity} steps={[
                                 "Java Full Stack Developer", 1000,
                                 "MERN Stack Developer", 1000
-                            ]} /></h1>
+                            ]} /></h1> */}
                             <span className='profile-role-tagline'>
                                 Currently working as an intern at Refactor Academy
                             </span>
