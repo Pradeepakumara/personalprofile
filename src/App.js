@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import { Route, Router, Switch } from 'react-router-dom';
+// import './App.scss';
+
+import About from './components/portfolioContainer/about/About';
+import Contact from './components/portfolioContainer/contactMe/Contact';
+import Experience from './components/portfolioContainer/experience/Experience';
+import Footer from './components/portfolioContainer/footer/Footer';
+import Profile from './components/portfolioContainer/home/Profile';
+import Navbar from './components/portfolioContainer/navbar/Navbar';
+import Projects from './components/portfolioContainer/projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar />
+    <Profile />
+    <About />
+    <Experience />
+    <Projects />
+    <Contact />
+    <Footer />
+    
+      {/* <Switch>
+        <Route path='/' exact component={Profile} />
+        <Route path='/about' exact component={About} />
+        <Route path='/project' exact component={Projects} />
+        <Route path='/contact' exact component={Contact} />
+        <Route path='/exp' exact component={Experience} />
+      </Switch> */}
+    </>
   );
 }
 

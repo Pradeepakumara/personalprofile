@@ -1,0 +1,77 @@
+.exp-section{
+    padding: 20px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.exp-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.exp-line{
+    width: 180px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: orangered;
+    margin-bottom: 50px;
+}
+.exp-container{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* min-height: 90vh; */
+}
+
+.exp-item{
+    margin: 15px 50px;
+    width: 300px;
+    height: 400px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+.exp-item .exp-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp-top .exp-logo{
+    width: 70px;
+}
+
+.exp-top .exp-logo img{
+    width: 100%;
+    /* margin-top: -10px; */
+}
+
+.exp-top .exp-year{
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.exp-bottom{
+    margin: 20px 0;
+}
+
+.exp-bottom .exp-sub-title{
+    margin-bottom: 15px;
+}  
+
+.exp-bottom p{
+    padding: 5px 0;
+    color: gray;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}

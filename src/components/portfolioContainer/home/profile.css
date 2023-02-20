@@ -1,0 +1,146 @@
+.profile-container{
+    /* margin: 25px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    /* height: 10%; */
+    /* min-height: fit-content; */
+    background-image: url('https://images.pexels.com/photos/1711323/pexels-photo-1711323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+
+.profile-details{
+    margin-top: 50px;
+}
+
+.profile-details-name .primary-text{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    display: block;
+    padding: 15px;
+}
+
+.profile-details-name .highlighted-text{
+    color: blanchedalmond;
+    font-size: 1.8rem;
+}
+
+.profile-details-role  h1{
+    font-size: 1.4;
+    font-weight: 100;
+    font-family: cursive;
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+.profile-role-tagline{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.profile-option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile-option button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.profile-option .primary-btn{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.profile-option .primary-btn:hover{
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.profile-option .highlighted-btn{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+.profile-option .highlighted-btn:hover{
+    background-color: transparent;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+.colz a{
+    margin: 0 15px;
+    font-size: 1.5rem;
+}
+
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px white;
+    border-radius: 50%;
+    height: 380px;
+    width: 350px;
+    margin: 20px auto;
+}
+
+.profile-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url('https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400');
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+
+
+
+@media screen and (min-width: 950px) {
+    .profile-parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ord2{
+        order: 2;
+    }
+
+    .ord1{
+        order: 1;
+    }
+    .profile-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .profile-option button{
+        margin: 0 10px;
+    }
+}
+
+
