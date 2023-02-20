@@ -69,6 +69,11 @@ nav .brand img{
 }
 
 @media screen and (max-width: 769px) {
+
+    nav {
+        padding: 10px 50px;
+    }
+
     .margin{
         /* margin-top: ; */
         padding-top: 70px;
@@ -83,7 +88,7 @@ nav .brand img{
         position: fixed;
         top: 75px;
         right: -350px;
-        width: 150px;
+        width: 170px;
         height: 100vh;
         background: #2a3239;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
