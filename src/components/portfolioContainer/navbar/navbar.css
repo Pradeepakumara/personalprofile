@@ -121,8 +121,11 @@ nav .brand img{
     }
 
     nav .brand{
-        margin-left: -20px;
+        margin-left: -30px;
     }
 
+    #nav-items ul{
+        width: 180px;
+    }
 
 }
