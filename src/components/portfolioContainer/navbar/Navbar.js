@@ -2,6 +2,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState } from 'react'
 import './navbar.css'
+import Brand from '../../../assets/images/DUK_5982.JPG';
 
 const Navbar = () => {
     
@@ -16,7 +17,7 @@ const Navbar = () => {
     <div className='navbar'>
         <nav>
             <div className='brand'>
-                <img src="https://images.pexels.com/photos/5912149/pexels-photo-5912149.jpeg?auto=compress&cs=tinysrgb&w=400" alt="brand" />
+                <img src={Brand} alt="brand" />
             </div>
             <div id='nav-items' className={click ? "#nav-item nav-item-active" : "#nav-item"}>
                 <ul>

@@ -46,6 +46,7 @@ const Profile = () => {
                                 "Java Full Stack Developer", 1000,
                                 "MERN Stack Developer", 1000
                             ]} /></h1> */}
+                            <h1>Java Full Stack and MERN Stack Developer</h1>
                             <span className='profile-role-tagline'>
                                 Currently working as an intern at Refactor Academy
                             </span>
