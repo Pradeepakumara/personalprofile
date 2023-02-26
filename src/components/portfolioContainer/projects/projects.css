@@ -103,6 +103,22 @@
     background-position: center;
 }
 
+.item3{
+    background: url("../../../assets/images/birds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.item3:hover{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../../../assets/images/birds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .project-item .second{
     position: absolute;
     bottom: -10em;

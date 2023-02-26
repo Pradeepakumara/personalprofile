@@ -30,7 +30,7 @@ const Projects = () => {
                     </div>
             </div>
 
-            <div className="project-item item1">
+            <div className="project-item item3">
                     <div className="first">
                         
                     </div>
