@@ -37,7 +37,7 @@ const Projects = () => {
                     <div className="second">
                         <h1>Birds Collection</h1>
                         <p>would you like to see this project click view button</p>
-                        <button>View</button>
+                        <a href="https://birdscollection.netlify.app/"><button>View</button></a>
                     </div>
             </div>
         </div>
