@@ -1,4 +1,4 @@
-import { faCss3, faCss3Alt, faHtml5, faJava, faNodeJs, faPython, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faCss3Alt, faGithub, faHtml5, faJava, faNodeJs, faPython, faReact, faSquareJs } from '@fortawesome/free-brands-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
@@ -116,6 +116,10 @@ const About = () => {
                             </div>
                             <div>
                                 <FontAwesomeIcon icon={faDatabase} style={{ color: "green", fontSize: '4rem' }} />
+                                <p>MongoDB</p>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faGithub} style={{ color: "", fontSize: '4rem' }} />
                                 <p>MongoDB</p>
                             </div>
                             
