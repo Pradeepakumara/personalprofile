@@ -120,7 +120,7 @@ const About = () => {
                             </div>
                             <div>
                                 <FontAwesomeIcon icon={faGithub} style={{ color: "", fontSize: '4rem' }} />
-                                <p>MongoDB</p>
+                                <p>GitHub</p>
                             </div>
                             
                         </div>
